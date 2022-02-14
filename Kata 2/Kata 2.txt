@@ -1,0 +1,11 @@
+## Crear entorno virtual
+python -m venv env
+env\Scripts\activate
+
+## Instalar una biblioteca
+pip freeze
+pip install python-dateutil
+pip freeze
+
+##Desactivar entorno virtual
+deactivate
